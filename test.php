@@ -10,6 +10,7 @@ $third = $first
 
 
 echo $first + $Second;
+echo $third + $First;
 ?>
 
 </body>
