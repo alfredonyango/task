@@ -7,7 +7,7 @@
 $first="The quick brown fox";
 $second="Jumped over the fence";
 $third=$first;
-$third.=' '.$second;
+$third.=$second;
 
 echo $third;
 ?>
