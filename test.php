@@ -3,15 +3,13 @@
 <body>
 
 <?php
-$first = “The quick brown fox “
-$second = “jumped over the fence.”
-$third = $first
 
+$first="The quick brown fox";
+$second="Jumped over the fence";
+$third=$first;
+$third.=' '.$second;
 
-
-echo $first + $Second;
-echo $third + $First;
+echo $third;
 ?>
-
 </body>
 </html>
